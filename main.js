@@ -1,16 +1,11 @@
-//  
-// ██╗░░░██╗██╗███╗░░██╗░█████╗░██████╗░
-// ██║░░░██║██║████╗░██║██╔══██╗██╔══██╗
-// ╚██╗░██╔╝██║██╔██╗██║██║░░██║██║░░██║
-// ░╚████╔╝░██║██║╚████║██║░░██║██║░░██║
-// ░░╚██╔╝░░██║██║░╚███║╚█████╔╝██████╔╝
-// ░░░╚═╝░░░╚═╝╚═╝░░╚══╝░╚════╝░╚═════╝░
-// ░░░░░██╗░█████╗░███╗░░██╗░██████╗░██╗██████╗░
-// ░░░░░██║██╔══██╗████╗░██║██╔════╝░██║██╔══██╗
-// ░░░░░██║███████║██╔██╗██║██║░░██╗░██║██║░░██║
-// ██╗░░██║██╔══██║██║╚████║██║░░╚██╗██║██║░░██║
-// ╚█████╔╝██║░░██║██║░╚███║╚██████╔╝██║██████╔╝
-// ░╚════╝░╚═╝░░╚═╝╚═╝░░╚══╝░╚═════╝░╚═╝╚═════╝░
+
+//       __         __           ____                                  
+//      / /  __  __/ /_____     / __ \____ _______________  ____  _____
+//     / /  / / / / //_/ _ \   / /_/ / __ `/ ___/ ___/ __ \/ __ \/ ___/
+//    / /__/ /_/ / ,< /  __/  / ____/ /_/ / /  (__  / /_/ / / / (__  ) 
+//   /_____\__,_/_/|_|\___/  /_/    \__,_/_/  /____/\____/_/ /_/____/  
+                                                                  
+
 
 // preloader script............
 var audio = document.getElementById("audioPlayer");
@@ -93,9 +88,6 @@ navLi.forEach( li => {
   }
 })
 })
-console.log('%c Designed and Developed by Vinod Jangid ', 'background-image: linear-gradient(90deg,#8000ff,#6bc5f8); color: white;font-weight:900;font-size:1rem; padding:20px;');
-
-
 
 let mybutton = document.getElementById("backtotopbutton");
 window.onscroll = function(){
@@ -117,9 +109,6 @@ function scrolltoTopfunction(){
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-// document.addEventListener("contextmenu", function (e){
-//   e.preventDefault();
-// }, false);
 
 document.addEventListener("contextmenu", function(e){
   if (e.target.nodeName === "IMG") {
@@ -133,7 +122,6 @@ document.addEventListener("contextmenu", function(e){
 
 let pupils = document.getElementsByClassName('pupil');
 let pupilsArr = Array.from(pupils);
-// console.log(pupils);
 
 let pupilStartPoint = -1;
 let pupilRange = 3;
